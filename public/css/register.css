@@ -1,0 +1,43 @@
+@import url(./style.css);
+
+body{
+    background-color: white;
+}
+
+#form-register{
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    background-color: var(--color-grisClaro);
+}
+
+.inputRegister{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 35px;
+    margin: 20px 0;
+    padding-left: 10px;
+    border: transparent;
+    border-radius: 5px;
+}
+.inputDate{
+    width: 100%;
+    height: 35px;
+    margin: 20px 0;
+    padding-left: 10px;
+    border: transparent;
+    border-radius: 5px;
+}
+.idRol{
+    margin: 10px 15px 10px 10px;
+}
+.divCheckbox{
+    display: flex;
+    flex-direction: column;
+    
+}
+.checkbox{
+    margin: 15px 15px 22px 17px;
+}
